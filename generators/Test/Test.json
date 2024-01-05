@@ -1,0 +1,13 @@
+{
+  "name": "f3336cdd-ca29-4cdb-9757-2638608d6276",
+  "displayName": "Test",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

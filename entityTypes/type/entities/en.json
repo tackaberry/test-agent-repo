@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "group",
+    "synonyms": [ "group" ],
+    "languageCode": "en"
+  }, {
+    "value": "individual",
+    "synonyms": [ "individual" ],
+    "languageCode": "en"
+  } ]
+}

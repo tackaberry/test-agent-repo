@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$",
+    "synonyms": [ "^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$" ],
+    "languageCode": "en"
+  }, {
+    "value": "adult",
+    "synonyms": [ "adult" ],
+    "languageCode": "en"
+  }, {
+    "value": "student",
+    "synonyms": [ "student" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,486 @@
+{
+  "name": "ae553c33-25c6-4572-aa6a-9547ee6068af",
+  "displayName": "Test case 2",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Details",
+        "flow": "Benefits"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, I'm your virtual agent. I can help answer your questions, understand your benefits, and find further help. " ]
+      }, {
+        "text": [ "Let's get started. " ]
+      }, {
+        "text": [ "Are you looking for group or individual benefits?" ]
+      } ],
+      "currentFlow": {
+        "name": "Benefits"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "group"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "Ok.  Group. What would you like to know?" ]
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about The Indigenous Transportation Initiatives Fund"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Indigenous Transportation Initiatives Fund (ITIF) is an application-based funding program open to Indigenous communities and organizations interested in pursuing transportation-related projects." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about benefits for victims of domestic abuse"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "One more time?" ],
+        "containAttemptedDataStoreInteractions": true,
+        "containSafetyFailures": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about digital learning"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "Digital learning enables remote delivery for Ontarians living in communities without direct physical access to postsecondary education and training to study when and where they want and at their own pace." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are students eligible for digital learning?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, students are eligible for digital learning." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what category is that doc in?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "What was that?" ],
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you give me a list of benefits for students?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Ontario Student Grant, Ontario Part-Time Grant and the Ontario Indigenous Travel Grant are non-repayable grant funding issued to support eligible students attending approved postsecondary institutions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Tell me more about Ontario Indigenous Travel Grant"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Ontario Indigenous Travel Grant is a non-repayable grant funding issued to support eligible students attending approved postsecondary institutions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there more details? Is there a link?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Ontario Indigenous Travel Grant is a non-repayable grant funding issued to support eligible students attending approved postsecondary institutions. For more information, please visit the Ontario Government website." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about ITIF"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Indigenous Transportation Initiatives Fund (ITIF) is an application-based funding program open to Indigenous communities and organizations interested in pursuing transportation-related projects. For more information, please visit the Ontario Government website." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about Aboriginal Participation Fund"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Aboriginal Participation Fund is a program that provides funding to First Nations communities, M�tis communities, and Indigenous organizations to support their participation in the mineral development process. The program has four sub-streams: the values mapping and related projects sub-stream, the mineral development advisor (MDA) stream, the early exploration support sub-stream, and the advanced exploration and development support sub-stream." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how can i help my community learn about mining?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Aboriginal Participation Fund - Education and relationship-building program provides funding to First Nations communities, M�tis communities, and Indigenous organizations to support their participation in the mineral development process. The program has four sub-streams: the values mapping and related projects sub-stream, the mineral development advisor (MDA) stream, the early exploration support sub-stream, and the advanced exploration and development support sub-stream." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how can i help my community learn about mineral exploration"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Aboriginal Participation Fund - Education and relationship-building program provides funding to First Nations communities, M�tis communities, and Indigenous organizations to support their participation in the mineral development process. For more information, please visit the Ontario Government website." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "tell me about mineral development advisor"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The mineral development advisor (MDA) stream provides funding for a MDA for eligible Aboriginal communities and organizations to participate effectively in the regulatory consultation processes, including the review of: * exploration plan and permit applications * closure plans and closure plan amendments * environmental assessments This funding helps to increase a community�s knowledge and understanding of the mineral development sequence, mineral exploration, mineral development, and the regulatory process." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I am under 20years old, are there internship programs for me?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "I'm sorry, I couldn't find any internship programs for individuals under 20 years old. However, there are a few internship programs available for groups or organizations. You can find more information on the Ontario Government website." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what about the Internship Program at the Ministry of Natural Resources and Forestry"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Internship Program at the Ministry of Natural Resources and Forestry offers paid internships to students who are interested in natural resource management. Interns work on projects that support natural resource management, receive mentoring, coaching and learning opportunities, and develop valuable professional contacts." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how long is the contract?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Internship Program at the Ministry of Natural Resources and Forestry offers a 12-month contract." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is there a link to more information?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Question"
+      },
+      "textResponses": [ {
+        "text": [ "The Internship Program at the Ministry of Natural Resources and Forestry offers a 12-month contract. For more information, please visit the Ministry of Natural Resources and Forestry website." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Question"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1704314581,
+    "nanos": 972857000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  },
+  "languageCode": "en"
+}

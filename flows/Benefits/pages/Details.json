@@ -1,0 +1,48 @@
+{
+  "name": "ef349ef9-5aa0-4599-b2de-9fd69876f25f",
+  "displayName": "Details",
+  "form": {
+    "parameters": [ {
+      "displayName": "type",
+      "required": true,
+      "entityType": "@type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Are you looking for group or individual benefits?" ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "Try again" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "bfc60320-6c86-4020-87b9-e7735dc4f8f3"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.type = group",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Group",
+    "name": "4bd96a9d-43f4-4053-b7e6-98d336696bc9"
+  }, {
+    "condition": "$session.params.type = individual",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Individual",
+    "name": "e88d51a3-d1e8-4232-8e61-de38769c8c1f"
+  } ]
+}
